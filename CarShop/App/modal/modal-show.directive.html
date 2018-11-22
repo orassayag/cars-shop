@@ -1,0 +1,22 @@
+﻿<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-ml">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title">Order</h4>
+                <div style="display: none">
+                    <img src="../../Content/loader.svg" />
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="text" class="form-control" ng-model="vm.email" name="email" placeholder="Enter email" />
+
+                </div>
+                <button class="btn btn-primary" type="button" ng-click="vm.order()">Order</button>
+                <button class="btn btn-primary">Cancel</button>
+            </div>
+        </div>
+    </div>
+</div>

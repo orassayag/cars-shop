@@ -1,0 +1,209 @@
+[
+  {
+    "Id": 1,
+    "ImagePath": "Images\\2015_Infiniti_Q70L_002_8274.jpg",
+    "Name": "Infiniti Q70L",
+    "Year": 2015,
+    "Prices": [
+      {
+        "Id": 1, 
+        "Name": "USD",
+        "Amount": 19850.00
+      },
+      {
+        "Id": 2,
+        "Name": "EUR",
+        "Amount": 30000.00
+      },
+      {
+        "Id": 3,
+        "Name": "NIS",
+        "Amount": 245000.00
+      }
+    ]
+  },
+  {
+    "Id": 2,
+    "ImagePath": "Images\\2014_Porsche_911_(_991_)_Carrera_4_GTS_001_5269.jpg",
+    "Name": "Porsche 911 ( 991 ) Carrera 4 GTS",
+    "Year": 2014,
+    "Prices": [
+      {
+        "Id": 1,
+        "Name": "USD",
+        "Amount": 12850.00
+      },
+      {
+        "Id": 2,
+        "Name": "EUR",
+        "Amount": 56000.00
+      },
+      {
+        "Id": 3,
+        "Name": "NIS",
+        "Amount": 630050.00
+      }
+    ]
+  },
+  {
+    "Id": 3,
+    "ImagePath": "Images\\2015_Audi_TT_Cup_002_8865.jpg",
+    "Name": "Audi TT Cup",
+    "Year": 2015,
+    "Prices": [
+      {
+        "Id": 1,
+        "Name": "USD",
+        "Amount": 12350.00
+      },
+      {
+        "Id": 2,
+        "Name": "EUR",
+        "Amount": 4500.00
+      },
+      {
+        "Id": 3,
+        "Name": "NIS",
+        "Amount": 210000.00
+      }
+    ]
+  },
+  {
+    "Id": 4,
+    "ImagePath": null,
+    "Name": "Jeep Grand Cherokee SRT Red Vapor Special Edition ",
+    "Year": 2014,
+    "Prices": [
+      {
+        "Id": 1,
+        "Name": "USD",
+        "Amount": 41850.00
+      },
+      {
+        "Id": 2,
+        "Name": "EUR",
+        "Amount": 30000.00
+      },
+      {
+        "Id": 3,
+        "Name": "NIS",
+        "Amount": 201000.00
+      }
+    ]
+  },
+  {
+    "Id": 5,
+    "ImagePath": null,
+    "Name": "Peugeot 308 GT",
+    "Year": 2014,
+    "Prices": [
+      {
+        "Id": 1,
+        "Name": "USD",
+        "Amount": 29850.00
+      },
+      {
+        "Id": 2,
+        "Name": "EUR",
+        "Amount": 10000.00
+      },
+      {
+        "Id": 3,
+        "Name": "NIS",
+        "Amount": 230000.00
+      }
+    ]
+  },
+  {
+    "Id": 6,
+    "ImagePath": "Images\\2014_Fiat_500X_001_7517.jpg",
+    "Name": "Fiat 500X",
+    "Year": 2014,
+    "Prices": [
+      {
+        "Id": 1,
+        "Name": "USD",
+        "Amount": 42850.00
+      },
+      {
+        "Id": 2,
+        "Name": "EUR",
+        "Amount": 41000.00
+      },
+      {
+        "Id": 3,
+        "Name": "NIS",
+        "Amount": 280000.00
+      }
+    ]
+  },
+  {
+    "Id": 7,
+    "ImagePath": "Images\\2015_Vencer_Sarthe_001_4826.jpg",
+    "Name": "Vencer Sarthe",
+    "Year": 2015,
+    "Prices": [
+      {
+        "Id": 1,
+        "Name": "USD",
+        "Amount": 41850.00
+      },
+      {
+        "Id": 2,
+        "Name": "EUR",
+        "Amount": 43000.00
+      },
+      {
+        "Id": 3,
+        "Name": "NIS",
+        "Amount": 700000.00
+      }
+    ]
+  },
+  {
+    "Id": 8,
+    "ImagePath": "Images\\2014_Mc_Laren_650S_Sprint_001_2767.jpg",
+    "Name": "McLaren 650S Sprint",
+    "Year": 2015,
+    "Prices": [
+      {
+        "Id": 1,
+        "Name": "USD",
+        "Amount": 67850.00
+      },
+      {
+        "Id": 2,
+        "Name": "EUR",
+        "Amount": 89000.00
+      },
+      {
+        "Id": 3,
+        "Name": "NIS",
+        "Amount": 5640000.00
+      }
+    ]
+  },
+  {
+    "Id": 9,
+    "ImagePath": "Images\\2014_Mercedes-Benz_AMG_GT_001_7979.jpg",
+    "Name": "Mercedes-Benz AMG GT",
+    "Year": 2014,
+    "Prices": [
+      {
+        "Id": 1,
+        "Name": "USD",
+        "Amount": 41850.00
+      },
+      {
+        "Id": 2,
+        "Name": "EUR",
+        "Amount": 44070.00
+      },
+      {
+        "Id": 3,
+        "Name": "NIS",
+        "Amount": 130000.00
+      }
+    ]
+  }
+]
