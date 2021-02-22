@@ -1,7 +1,6 @@
 # Cars Shop
 
-Built in November 2014.
-ASP.NET Car shops with Angular 1.6 project.
+Built in November 2014. A ASP.NET project to simulate Car shops with Angular.js 1.6.
 
 ## Getting Started
 
