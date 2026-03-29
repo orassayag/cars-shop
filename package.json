@@ -1,0 +1,43 @@
+{
+  "name": "cars-shop",
+  "version": "1.0.0",
+  "private": false,
+  "description": "A full-stack ASP.NET MVC web application simulating an online car dealership with AngularJS frontend, featuring multi-currency support, dynamic pricing display, and responsive Bootstrap UI for interactive car shopping experience.",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/orassayag/cars-shop.git"
+  },
+  "keywords": [
+    "aspnet",
+    "mvc",
+    "csharp",
+    "angularjs",
+    "bootstrap",
+    "webapi",
+    "rest-api",
+    "car-dealership",
+    "ecommerce",
+    "multi-currency",
+    "responsive-design",
+    "json-data",
+    "dotnet",
+    "web-application"
+  ],
+  "main": "CarShop/Global.asax.cs",
+  "author": "Or Assayag <orassayag@gmail.com>",
+  "contributors": [
+    {
+      "name": "Or Assayag",
+      "email": "orassayag@gmail.com",
+      "url": "https://github.com/orassayag"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/orassayag/cars-shop/issues"
+  },
+  "homepage": "https://github.com/orassayag/cars-shop#readme",
+  "engines": {
+    "dotnet": ">=4.5"
+  }
+}
