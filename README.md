@@ -1,10 +1,18 @@
 # Cars Shop
 
-A full-stack web application simulating an online car dealership with multi-currency support and dynamic pricing display.
+A full-stack web application simulating an online car dealership with multi-currency support, real-time pricing, and a dynamic shopping experience.
 
-Built in November 2014. This ASP.NET MVC project combines server-side C# with client-side AngularJS 1.6 to create an interactive car shopping experience featuring real-time currency conversion and a modern responsive interface.
+Built in November 2014 using ASP.NET MVC and AngularJS 1.6, it combines a robust C# backend with a responsive client-side UI. The project showcases RESTful APIs, JSON-driven inventory, and Bootstrap-based design, delivering an interactive and modern car browsing and purchase simulation platform. It emphasizes clean architecture, modular frontend design, and scalable API communication patterns.
 
 ## Features
+
+- 🚗 Display car inventory with images and specifications
+- 💱 Multi-currency support (USD, EUR, NIS)
+- 🎨 Responsive Bootstrap-based UI
+- 📊 RESTful API architecture
+- 🔄 Dynamic data loading with AngularJS
+- 🖼️ Modal dialogs for enhanced user experience
+- 📱 Mobile-friendly responsive design
 
 ### Core Capabilities
 
@@ -28,35 +36,6 @@ Built in November 2014. This ASP.NET MVC project combines server-side C# with cl
 - **Visual Studio Ready**: Optimized for development in Visual Studio 2015+ with IIS Express.
 - **Modular Frontend**: AngularJS module pattern for scalable client-side logic.
 - **Comprehensive API**: Well-documented endpoints for car and currency data.
-
-- 🚗 Display car inventory with images and specifications
-- 💱 Multi-currency support (USD, EUR, NIS)
-- 🎨 Responsive Bootstrap-based UI
-- 📊 RESTful API architecture
-- 🔄 Dynamic data loading with AngularJS
-- 🖼️ Modal dialogs for enhanced user experience
-- 📱 Mobile-friendly responsive design
-
-## Architecture
-
-```mermaid
-graph TB
-    A[Browser/Client] -->|HTTP Requests| B[ASP.NET MVC]
-    B -->|Serve Views| C[Razor Views]
-    C -->|Load| D[AngularJS App]
-    D -->|API Calls| E[Web API Controller]
-    E -->|Read Data| F[JSON Data Files]
-    F -->|cars.json| E
-    F -->|currencies.json| E
-    E -->|JSON Response| D
-    D -->|Update UI| A
-
-    style A fill:#e1f5ff
-    style B fill:#fff3cd
-    style D fill:#d4edda
-    style E fill:#f8d7da
-    style F fill:#e2e3e5
-```
 
 ## Technology Stack
 
@@ -176,6 +155,29 @@ To modify or add currency symbols, update the `CurrencyCodeMapper.cs` helper cla
 
 ## Architecture
 
+This project follows a clean, layered architecture with clear separation of concerns:
+
+### Architecture Diagram
+
+```mermaid
+graph TB
+    A[Browser/Client] -->|HTTP Requests| B[ASP.NET MVC]
+    B -->|Serve Views| C[Razor Views]
+    C -->|Load| D[AngularJS App]
+    D -->|API Calls| E[Web API Controller]
+    E -->|Read Data| F[JSON Data Files]
+    F -->|cars.json| E
+    F -->|currencies.json| E
+    E -->|JSON Response| D
+    D -->|Update UI| A
+
+    style A fill:#e1f5ff
+    style B fill:#fff3cd
+    style D fill:#d4edda
+    style E fill:#f8d7da
+    style F fill:#e2e3e5
+```
+
 ### Architecture Principles
 
 - **Separation of Concerns**: Decoupling of server-side data management from client-side presentation logic.
@@ -233,43 +235,6 @@ CarShop/
 - **LESS Preprocessing**: Using LESS for modular and maintainable CSS.
 - **Client-Side Validation**: Leveraging AngularJS for immediate user feedback during the order process.
 - **Asset Bundling**: Using `BundleConfig.cs` to optimize delivery of CSS and JS files.
-
-## Project Structure
-
-```
-CarShop/
-├── App/                    # AngularJS application
-│   ├── car-shop/          # Car shop module (controller, service, module)
-│   └── modal/             # Modal directive for order dialog
-├── App_Data/              # JSON data storage
-│   ├── cars.json          # Car inventory data
-│   ├── currencies.json    # Currency definitions
-│   └── orders.json        # Order history
-├── App_Start/             # ASP.NET configuration
-│   ├── BundleConfig.cs    # JavaScript/CSS bundling
-│   ├── FilterConfig.cs    # Global filters
-│   ├── RouteConfig.cs     # MVC routing
-│   └── WebApiConfig.cs    # Web API routing
-├── ApiControllers/        # Web API controllers
-│   └── CarShopController.cs
-├── Controllers/           # MVC controllers
-│   └── HomeController.cs
-├── Content/               # Static assets
-│   ├── Images/           # Car images
-│   └── *.css             # Stylesheets
-├── Helpers/               # Utility classes
-│   ├── CurrencyCodeMapper.cs
-│   └── Response.cs
-├── Models/                # Data models
-│   ├── Car.cs
-│   ├── Currency.cs
-│   └── Price.cs
-├── Scripts/               # JavaScript libraries
-├── Views/                 # Razor views
-│   ├── Home/
-│   └── Shared/
-└── Web.config             # Application configuration
-```
 
 ## API Documentation
 

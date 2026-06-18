@@ -20,7 +20,7 @@ If you discover a security vulnerability in this project, please report it to us
 
 ### How to Report
 
-Send an email to **security@yourproject.org** (or your dedicated security contact) with the following details:
+Send an email to **orassayag@gmail.com** (or your dedicated security contact) with the following details:
 
 - Description of the vulnerability
 - Steps to reproduce the issue
